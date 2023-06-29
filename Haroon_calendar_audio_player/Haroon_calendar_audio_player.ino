@@ -193,10 +193,10 @@ void setup() {
     display.setCursor(0,0);
     display.println("SD card fail");
     display.display();
-  //while (1) {
+  while (1) {
       Serial.println("Unable to access the SD card");
       delay(500);
-   //}
+   }
   }
     
   pinMode(MODE_SWITCH, INPUT_PULLUP);
